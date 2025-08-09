@@ -9,8 +9,8 @@ st.set_page_config(page_title="Prediksi Penjualan Sepatu", page_icon="👟", lay
 
 # Load dataset dan model
 # Correct file paths (using escape character or forward slashes)
-df = pd.read_csv('D:/KULIAH/SEMESTER 4/Machine Learning/UAS/men_shoes/MEN_SHOES.csv')
-model = load('D:/KULIAH/SEMESTER 4/Machine Learning/UAS/men_shoes/random_forest_regressor.joblib')
+df = pd.read_csv('MEN_SHOES.csv')
+model = load('random_forest_regreessor.joblib')
 
 
 # UI Streamlit
