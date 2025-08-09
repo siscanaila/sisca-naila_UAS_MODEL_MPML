@@ -10,7 +10,7 @@ st.set_page_config(page_title="Prediksi Penjualan Sepatu", page_icon="👟", lay
 # Load dataset dan model
 # Correct file paths (using escape character or forward slashes)
 df = pd.read_csv('MEN_SHOES.csv')
-model = load('random_forest_regreessor.joblib')
+model = load('random_forest_regressor.joblib')
 
 
 # UI Streamlit
